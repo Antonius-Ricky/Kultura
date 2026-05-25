@@ -1,0 +1,110 @@
+[
+  {
+    "id": "001",
+    "name": "Ki Hajar Dewantara",
+    "category": "Karakter",
+    "rarity": "Legendary",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Setiap dua turn mendapatkan bonus +5 pada dice. Mendapat bonus x2 jika dice double",
+    "story": "Ki Hajar Dewantara adalah pelopor pendidikan Indonesia yang lahir di Yogyakarta dan dikenal sebagai Bapak Pendidikan Nasional. Pada masa penjajahan Belanda, ia memperjuangkan hak seluruh rakyat untuk memperoleh pendidikan tanpa memandang status sosial. Dengan semangat perjuangan dan kecerdasannya, ia mendirikan Taman Siswa pada tahun 1922 sebagai tempat belajar yang membebaskan dan membangun karakter bangsa. Semboyannya yang terkenal, 'Ing ngarsa sung tulada, ing madya mangun karsa, tut wuri handayani', menjadi simbol kebijaksanaan, kepemimpinan, dan inspirasi bagi generasi Indonesia. Dalam dunia Kultura, Ki Hajar Dewantara hadir sebagai karakter Legendary yang mampu meningkatkan strategi dan ketepatan pemain melalui kekuatan ilmu pengetahuan serta semangat pendidikan yang tak tergoyahkan.",
+    "image": "../assets/images/kihajar.png",
+    "color": "#FFD700"
+  },
+  {
+    "id": "002",
+    "name": "Raden Speed",
+    "category": "Karakter",
+    "rarity": "Legendary",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Setiap roll dice mendapat bonus +1. Mendapat bonus +5 pada turn selanjutnya ketikda berada di 'SANTAI'",
+    "story": "Raden Speed adalah sosok misterius dari tanah Jawa yang dikenal karena kecepatannya yang tak tertandingi di setiap perjalanan malam. Mengenakan pakaian batik bermotif bunga dan membawa kumpulan anak panah pusaka di punggungnya, ia dipercaya mampu bergerak secepat angin ketika bulan mulai muncul di langit. Konon, Raden Speed pernah menantang para penjaga kerajaan dalam perlombaan melintasi desa, hutan, dan pasar malam hanya untuk membuktikan bahwa kecerdikan lebih penting daripada kekuatan. Dengan langkah santainya, ia selalu berhasil mencapai tujuan lebih dulu tanpa terlihat kelelahan. Dalam dunia Kultura, Raden Speed menjadi simbol kecepatan, kelincahan, dan strategi licik yang membuat lawan sulit mengejarnya di arena perang. (Bukan tokoh asli ,hanya cerita fiksi)",
+    "image": "../assets/images/radenspeed.png",
+    "color": "#DAA520"
+  },
+  {
+    "id": "003",
+    "name": "Rumah Joglo",
+    "category": "Bangunan",
+    "rarity": "Uncommon",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Tambahan biaya sewa RP.150 pada rumah/bangunan",
+    "story": "Rumah Joglo adalah rumah adat khas Jawa yang melambangkan kehormatan, kebijaksanaan, dan kehangatan keluarga. Dengan atap tinggi berbentuk tajug yang megah serta tiang-tiang kayu kokoh penuh ukiran tradisional, Joglo telah menjadi simbol budaya Jawa sejak zaman kerajaan. Dahulu, rumah ini sering digunakan sebagai tempat berkumpul para bangsawan, musyawarah desa, hingga acara adat penting. Suasana tenang dan arsitekturnya yang anggun dipercaya membawa kedamaian bagi siapa pun yang singgah di dalamnya. Dalam dunia Kultura, Rumah Joglo menjadi simbol perlindungan dan keharmonisan, memberikan ketenangan serta kekuatan strategi bagi para pemain yang menguasainya.",
+    "image": "../assets/images/rumahjoglo.png",
+    "color": "#9B59B6"
+  },
+  {
+    "id": "004",
+    "name": "Blangkon",
+    "category": "Pakaian",
+    "rarity": "Rare",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Menambah efek boost karakter sebanyak 20%",
+    "story": "Blangkon adalah penutup kepala tradisional khas Jawa yang telah digunakan sejak zaman kerajaan sebagai bagian dari pakaian adat pria. Blangkon dibuat dari kain batik yang dibentuk dan dilipat dengan teknik khusus, mencerminkan filosofi kesopanan, kebijaksanaan, dan pengendalian diri dalam budaya Jawa. Pada masa dahulu, bentuk dan motif blangkon juga dapat menunjukkan asal daerah maupun status sosial seseorang. Hingga kini, blangkon tetap menjadi simbol identitas budaya Jawa dan sering digunakan dalam upacara adat, pertunjukan seni, serta acara tradisional di Yogyakarta dan Surakarta.",    
+    "image": "../assets/images/blangkon.png",
+    "color": "#FFD700"
+  },
+  {
+    "id": "005",
+    "name": "Gudeg",
+    "category": "Makanan",
+    "rarity": "Common",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Tambahan biaya sewa Rp.100 pada tempat makan",
+    "story": "Gudeg adalah makanan khas legendaris dari Yogyakarta yang telah diwariskan turun-temurun sejak zaman kerajaan Jawa. Terbuat dari nangka muda yang dimasak perlahan bersama santan dan rempah-rempah pilihan, gudeg memiliki cita rasa manis dan aroma khas yang menggambarkan kehangatan budaya Jawa. Hidangan ini sering disajikan bersama nasi, ayam kampung, telur, dan sambal krecek yang pedas menggugah selera. Dalam dunia Kultura, Gudeg menjadi simbol ketahanan, kesabaran, dan kekuatan tradisi, memberikan energi tambahan serta semangat perjalanan bagi siapa pun yang menikmatinya.",
+    "image": "../assets/images/gudeg.png",
+    "color": "#C8813A"
+  },  
+  {
+    "id": "006",
+    "name": "Wayang Kulit Gagrak",
+    "category": "Kesenian",
+    "rarity": "Epic",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Membuat lawan membuang uang sebanyak 20% dari total uang yang dimiliki",
+    "story": "Wayang Kulit Gagrak adalah seni pertunjukan tradisional Jawa yang menggunakan boneka kulit berukir sebagai media penceritaan. Kata 'gagrak' sendiri berarti gaya atau pakem tertentu yang membedakan bentuk pertunjukan antar daerah, seperti Gagrak Yogyakarta dan Gagrak Surakarta. Wayang kulit biasanya mengangkat kisah dari Mahabharata, Ramayana, serta cerita-cerita pewayangan Jawa yang sarat akan nilai moral, kepemimpinan, dan filosofi kehidupan. Pertunjukan ini dimainkan oleh seorang dalang yang menggerakkan wayang di balik kelir dengan iringan gamelan dan sinden. Wayang Kulit Gagrak telah diwariskan turun-temurun selama ratusan tahun dan diakui sebagai warisan budaya dunia oleh UNESCO karena nilai seni dan budayanya yang sangat tinggi.",
+    "image": "../assets/images/wayangkulitgagrak.png",
+    "color": "#F5DEB3"
+  },
+  {
+    "id": "007",
+    "name": "Tari Bedhaya Semang",
+    "category": "Kesenian",
+    "rarity": "Rare",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Membuat lawan berhenti selama 1 putaran",
+    "story": "Tari Bedhaya Semang adalah tarian sakral keraton Jawa yang berasal dari tradisi Kesultanan Yogyakarta dan Surakarta. Tarian ini dikenal sebagai simbol keanggunan, ketenangan, dan kehormatan budaya Jawa. Bedhaya biasanya dibawakan oleh sembilan penari perempuan dengan gerakan lembut, perlahan, dan penuh makna filosofis yang melambangkan keseimbangan hidup, kesucian, serta hubungan manusia dengan alam dan spiritualitas. Dahulu, tarian ini hanya dipentaskan pada acara penting keraton seperti penobatan raja atau upacara adat kerajaan. Iringan gamelan yang tenang dan busana tradisional yang elegan membuat Tari Bedhaya Semang menjadi salah satu warisan seni budaya Jawa yang sangat dihormati hingga sekarang.",
+    "image": "../assets/images/taribedhaya.png",
+    "color": "#8B6914"
+  },
+  {
+    "id": "008",
+    "name": "Sate Klathak",
+    "category": "Makanan",
+    "rarity": "Uncommon",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Menambah biaya sewa rumah makan sebanyak Rp.150",
+    "story": "Sate Khlathak adalah kuliner khas Yogyakarta yang berasal dari daerah Bantul dan terkenal karena cara memasaknya yang unik. Berbeda dari sate pada umumnya, sate ini menggunakan jeruji besi sepeda sebagai tusukan agar panas dapat menghantarkan kematangan daging secara merata hingga ke bagian dalam. Daging kambing yang digunakan biasanya hanya dibumbui sederhana dengan garam dan rempah pilihan, menghasilkan cita rasa gurih khas yang autentik. Nama 'khlathak' berasal dari bunyi daging yang dibakar di atas bara api, menciptakan suara 'thak-thak' saat proses pemanggangan. Hingga kini, Sate Khlathak menjadi salah satu ikon kuliner Yogyakarta yang terkenal karena kesederhanaan rasa dan teknik memasaknya yang tradisional.",
+    "image": "../assets/images/satekhatlak.png",
+    "color": "#1a1a2e"
+  },
+  {
+    "id": "009",
+    "name": "Pangeran Diponegoro",
+    "category": "Karakter",
+    "rarity": "Legendary",
+    "region": "Yogyakarta",
+    "expansion": "Yogyakarta Edition",
+    "effect": "Tidak tertahan saat berada di 'Sangkar'. Mendapat +2 roll dice pada setiap turn",
+    "story": "Pangeran Diponegoro adalah pahlawan nasional Indonesia yang lahir di Yogyakarta pada tahun 1785 dan dikenal sebagai pemimpin Perang Jawa melawan penjajahan Belanda pada tahun 1825–1830. Ia merupakan putra Sultan Hamengkubuwono III yang memilih hidup sederhana dan dekat dengan rakyat dibanding tinggal di lingkungan istana. Perjuangannya dipicu oleh penderitaan rakyat akibat campur tangan Belanda dalam urusan kerajaan serta penindasan yang semakin meluas. Dengan semangat kepemimpinan dan strategi perang gerilya yang kuat, Pangeran Diponegoro berhasil memimpin perlawanan besar yang mengguncang kekuasaan Belanda di Pulau Jawa. Meski akhirnya ditangkap dan diasingkan ke Makassar, perjuangannya dikenang sebagai simbol keberanian, pengorbanan, dan semangat melawan penjajahan di Indonesia.",
+    "image": "../assets/images/pangerandiponergoro.png",
+    "color": "#E91E8C"
+  }
+]

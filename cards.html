@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu - Kultura TCG</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loading-logo">KULTURA</div>
+  <div class="loading-subtitle">Loading Cards...</div>
+  <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon">🏛️</div>
+    <div>
+      <div class="nav-logo-text">KULTURA</div>
+      <div class="nav-logo-sub">Trading Card Game</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="expansions.html" class="nav-link">Expansions</a></li>
+    <li><a href="cards.html" class="nav-link active">Cards</a></li>
+    <li><a href="how-to-play.html" class="nav-link">How To Play</a></li>
+    <li><a href="where-to-buy.html" class="nav-link">Where To Buy</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<nav class="nav-mobile">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="expansions.html" class="nav-link">Expansions</a>
+  <a href="cards.html" class="nav-link active">Cards</a>
+  <a href="how-to-play.html" class="nav-link">How To Play</a>
+  <a href="where-to-buy.html" class="nav-link">Where To Buy</a>
+</nav>
+
+<!-- Page Hero -->
+<div class="page-hero">
+  <div class="page-hero-content">
+    <div class="section-label">Database Kartu</div>
+    <h1 class="page-hero-title">Galeri <span>Kartu</span></h1>
+    <p class="page-hero-desc">Temukan semua kartu koleksi Kultura TCG. Kartu Legendary, Epic, Rare, dan Common — masing-masing dengan kekuatan uniknya.</p>
+  </div>
+</div>
+
+<!-- Cards Section -->
+<div class="section">
+  <!-- Filter Bar -->
+  <div class="filter-bar reveal">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="Cari nama kartu atau ID...">
+      </div>
+      <div style="font-size:0.75rem;color:var(--text-muted)">
+        <span id="cards-count" style="color:var(--gold);font-weight:600;">0 Kartu</span> tersedia
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Kategori:</span>
+      <button class="filter-btn active" data-cat="all">Semua</button>
+      <button class="filter-btn" data-cat="Karakter">👤 Karakter</button>
+      <button class="filter-btn" data-cat="Makanan">🍛 Makanan</button>
+      <button class="filter-btn" data-cat="Bangunan">🏛️ Bangunan</button>
+      <button class="filter-btn" data-cat="Pakaian">👘 Pakaian</button>
+      <button class="filter-btn" data-cat="Kesenian">🎨 Kesenian</button>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Rarity:</span>
+      <button class="filter-btn active" data-rarity="all">Semua</button>
+      <button class="filter-btn" data-rarity="Legendary" style="color:var(--rarity-legendary)">⭐ Legendary</button>
+      <button class="filter-btn" data-rarity="Epic" style="color:var(--rarity-epic)">💜 Epic</button>
+      <button class="filter-btn" data-rarity="Rare" style="color:var(--rarity-rare)">💙 Rare</button>
+      <button class="filter-btn" data-rarity="Uncommon" style="color:var(--rarity-uncommon)">💚 Uncommon</button>
+      <button class="filter-btn" data-rarity="Common" style="color:var(--rarity-common)">🩶 Common</button>
+    </div>
+  </div>
+
+  <!-- Cards Grid -->
+  <div id="cards-grid" class="cards-grid">
+    <div class="no-results">
+      <div class="no-results-icon">🎴</div>
+      <p>Memuat kartu...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo-text">KULTURA</div>
+      <div class="nav-logo-sub" style="letter-spacing:3px;color:var(--text-muted);font-size:0.65rem;">Trading Card Game</div>
+      <p class="footer-tagline">Trading card game yang mengangkat keindahan budaya Indonesia.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigasi</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="expansions.html">Expansions</a>
+        <a href="cards.html">Cards</a>
+        <a href="how-to-play.html">How To Play</a>
+        <a href="where-to-buy.html">Where To Buy</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Kategori</div>
+      <div class="footer-links">
+        <a href="cards.html?cat=Karakter">Karakter</a>
+        <a href="cards.html?cat=Makanan">Makanan</a>
+        <a href="cards.html?cat=Bangunan">Bangunan</a>
+        <a href="cards.html?cat=Pakaian">Pakaian</a>
+        <a href="cards.html?cat=Kesenian">Kesenian</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Sosial</div>
+      <div class="footer-social" style="margin-top:0">
+        <div class="social-btn">📘</div>
+        <div class="social-btn">📸</div>
+        <div class="social-btn">🐦</div>
+        <div class="social-btn">▶️</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Kultura TCG. Merayakan Budaya Indonesia.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
