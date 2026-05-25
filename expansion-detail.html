@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yogyakarta Edition - Kultura TCG</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +19,7 @@
 <!-- Navbar -->
 <nav class="navbar">
   <a href="index.html" class="nav-logo">
-    <div class="nav-logo-icon">🏛️</div>
+    <div class="nav-logo-icon"><img src="./assets/images/logo.png" alt=""></div>
     <div>
       <div class="nav-logo-text">KULTURA</div>
       <div class="nav-logo-sub">Trading Card Game</div>
@@ -45,7 +46,7 @@
 <!-- Expansion Hero -->
 <div style="position:relative;min-height:70vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#0A0602,#1A0F00,#2D1A00);padding-top:var(--navbar-height);">
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,168,76,0.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 30%,rgba(224,123,57,0.1) 0%,transparent 40%);"></div>
-  <div style="position:absolute;right:10%;top:50%;transform:translateY(-50%);font-size:20rem;opacity:0.05;pointer-events:none;line-height:1;">🏛️</div>
+  <div style="position:absolute;right:10%;top:50%;transform:translateY(-50%);font-size:20rem;opacity:0.05;pointer-events:none;line-height:1;"><img src="./assets/images/bannerjogja.png" alt=""></div>
 
   <div style="position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:80px 80px;">
     <div style="max-width:700px;">
@@ -163,38 +164,56 @@
   </div>
 </div>
 
-<!-- Footer -->
+<<!-- Footer -->
 <footer class="footer">
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="nav-logo-text">KULTURA</div>
-      <p class="footer-tagline">Trading card game yang mengangkat keindahan budaya Indonesia.</p>
+      <div class="nav-logo-sub" style="letter-spacing:3px;color:var(--text-muted);font-size:0.65rem;">Trading Card Game</div>
+      <p class="footer-tagline">Trading card game yang mengangkat keindahan budaya Indonesia untuk dunia.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/kultura.tcg/" 
+          target="_blank" 
+          class="instagram-link">
+            <img src="./assets/images/instagram.png" alt="Instagram Logo"><span>@kultura.tcg</span>
+        </a>
+      </div>
     </div>
     <div>
       <div class="footer-col-title">Navigasi</div>
       <div class="footer-links">
-        <a href="index.html">Home</a><a href="expansions.html">Expansions</a>
-        <a href="cards.html">Cards</a><a href="how-to-play.html">How To Play</a>
+        <a href="index.html">Home</a>
+        <a href="expansions.html">Expansions</a>
+        <a href="cards.html">Cards</a>
+        <a href="how-to-play.html">How To Play</a>
+        <a href="where-to-buy.html">Where To Buy</a>
       </div>
     </div>
     <div>
-      <div class="footer-col-title">Ekspansi</div>
+      <div class="footer-col-title">Produk</div>
       <div class="footer-links">
-        <a href="expansion-detail.html">Yogyakarta Edition</a>
-        <a href="#">Bali Edition (Soon)</a>
-        <a href="#">Papua Edition (Soon)</a>
+        <a href="where-to-buy.html">Starter Deck</a>
+        <a href="where-to-buy.html">Booster Pack</a>
+        <a href="where-to-buy.html">Bundle Box</a>
+        <a href="where-to-buy.html#order-section">Pesan Langsung</a>
       </div>
     </div>
     <div>
-      <div class="footer-col-title">Sosial</div>
-      <div class="footer-social" style="margin-top:0">
-        <div class="social-btn">📘</div><div class="social-btn">📸</div>
-        <div class="social-btn">🐦</div><div class="social-btn">▶️</div>
+      <div class="footer-col-title">Kontak</div>
+      <div class="footer-links">
+        <a href="mailto:hello@kulturatcg.id">hello@kulturatcg.id</a>
+        <a href="#">WhatsApp: 08xx-xxxx-xxxx</a>
+        <a href="#">Instagram: @kultura.tcg</a>
+        <a href="#">Discord Community</a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 Kultura TCG. Merayakan Budaya Indonesia.</span>
+    <span>© 2025 Kultura TCG. Semua hak dilindungi. Merayakan Budaya Indonesia.</span>
+    <span style="display:flex;gap:16px;">
+      <a href="#" style="color:var(--text-muted);font-size:0.7rem;">Kebijakan Privasi</a>
+      <a href="#" style="color:var(--text-muted);font-size:0.7rem;">Syarat & Ketentuan</a>
+    </span>
   </div>
 </footer>
 

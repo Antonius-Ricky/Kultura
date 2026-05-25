@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Where To Buy - Kultura TCG</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +19,7 @@
 <!-- Navbar -->
 <nav class="navbar">
   <a href="index.html" class="nav-logo">
-    <div class="nav-logo-icon">🏛️</div>
+    <div class="nav-logo-icon"><img src="./assets/images/logo.png" alt=""></div>
     <div>
       <div class="nav-logo-text">KULTURA</div>
       <div class="nav-logo-sub">Trading Card Game</div>
@@ -87,15 +88,14 @@
         <div class="wtb-product-name">Starter Deck</div>
         <div class="wtb-product-subtitle">Yogyakarta Edition</div>
         <div class="wtb-product-price">
-          <span class="wtb-price-main">Rp 149.000</span>
+          <span class="wtb-price-main">Rp 80.000</span>
           <span class="wtb-price-old">Rp 199.000</span>
         </div>
         <ul class="wtb-product-includes">
-          <li><span>✓</span> 12 Kartu pilihan (2 Epic dijamin)</li>
-          <li><span>✓</span> 1 Papan permainan mini</li>
+          <li><span>✓</span> 2 Booster Pack</li>
+          <li><span>✓</span> 1 Board game kultura</li>
           <li><span>✓</span> 2 Dadu premium bertema batik</li>
-          <li><span>✓</span> Token pemain eksklusif</li>
-          <li><span>✓</span> Buku panduan bermain</li>
+          <li><span>✓</span> Wallpaper karakter eksklusif</li>
           <li><span>✓</span> Kartu promo eksklusif</li>
         </ul>
         <button class="btn btn-primary wtb-buy-btn" data-product="Starter Deck" data-price="149000">🛒 Pesan Langsung</button>
@@ -118,15 +118,15 @@
         <div class="wtb-product-name">Booster Pack</div>
         <div class="wtb-product-subtitle">Yogyakarta Edition · 5 Kartu Acak</div>
         <div class="wtb-product-price">
-          <span class="wtb-price-main">Rp 59.000</span>
-          <span class="wtb-price-old">Rp 79.000</span>
+          <span class="wtb-price-main">Rp 20.000</span>
+          <span class="wtb-price-old">Rp 99.000</span>
         </div>
         <ul class="wtb-product-includes">
           <li><span>✓</span> 5 kartu acak per pack</li>
           <li><span>✓</span> 1 kartu Rare dijamin</li>
           <li><span>✓</span> 5% peluang Legendary</li>
           <li><span>✓</span> Artwork premium lokal</li>
-          <li><span>✓</span> Sleeve pelindung kartu</li>
+          <li><span>✓</span> Tanda tangan bahlil</li>
         </ul>
         <button class="btn btn-primary wtb-buy-btn" data-product="Booster Pack" data-price="59000">🛒 Pesan Langsung</button>
       </div>
@@ -148,14 +148,13 @@
         <div class="wtb-product-name">Bundle Box</div>
         <div class="wtb-product-subtitle">Paket Lengkap Kolektor</div>
         <div class="wtb-product-price">
-          <span class="wtb-price-main">Rp 599.000</span>
-          <span class="wtb-price-old">Rp 890.000</span>
+          <span class="wtb-price-main">Rp 350.000</span>
+          <span class="wtb-price-old">Rp 499.000</span>
         </div>
         <ul class="wtb-product-includes">
           <li><span>✓</span> 1 Starter Deck Yogyakarta</li>
           <li><span>✓</span> 10 Booster Pack eksklusif</li>
           <li><span>✓</span> Kotak display premium</li>
-          <li><span>✓</span> 60 Sleeve kartu</li>
           <li><span>✓</span> Binder kolektor</li>
           <li><span>✓</span> 1 Kartu Legendary dijamin</li>
         </ul>
@@ -226,9 +225,9 @@
       </a>
 
       <!-- Instagram -->
-      <a href="https://instagram.com" target="_blank" rel="noopener" class="wtb-market-card reveal reveal-delay-3">
+      <a href="https://www.instagram.com/kultura.tcg/" target="_blank" rel="noopener" class="wtb-market-card reveal reveal-delay-3">
         <div class="wtb-market-logo instagram-logo">
-          <div class="wtb-market-logo-icon" style="background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF);">📸</div>
+          <div class="wtb-market-logo-icon" style="background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF);"><img src="./assets/images/instagram.png" alt=""></div>
           <div>
             <div class="wtb-market-name">Instagram</div>
             <div class="wtb-market-handle">@kultura.tcg</div>
@@ -332,9 +331,9 @@
             <div class="wtb-form-select-wrap">
               <select class="wtb-form-input wtb-form-select" id="order-product">
                 <option value="">-- Pilih Produk --</option>
-                <option value="Starter Deck - Rp 149.000">Starter Deck · Rp 149.000</option>
-                <option value="Booster Pack - Rp 59.000">Booster Pack · Rp 59.000</option>
-                <option value="Bundle Box - Rp 599.000">Bundle Box · Rp 599.000</option>
+                <option value="Starter Deck - Rp 80.000">Starter Deck · Rp 80.000</option>
+                <option value="Booster Pack - Rp 20.000">Booster Pack · Rp 20.000</option>
+                <option value="Bundle Box - Rp 350.000">Bundle Box · Rp 350.000</option>
               </select>
             </div>
             <span class="wtb-form-error" id="error-product"></span>
@@ -471,10 +470,11 @@
       <div class="nav-logo-sub" style="letter-spacing:3px;color:var(--text-muted);font-size:0.65rem;">Trading Card Game</div>
       <p class="footer-tagline">Trading card game yang mengangkat keindahan budaya Indonesia untuk dunia.</p>
       <div class="footer-social">
-        <div class="social-btn">📘</div>
-        <div class="social-btn">📸</div>
-        <div class="social-btn">🐦</div>
-        <div class="social-btn">▶️</div>
+        <a href="https://www.instagram.com/kultura.tcg/" 
+          target="_blank" 
+          class="instagram-link">
+            <img src="./assets/images/instagram.png" alt="Instagram Logo"><span>@kultura.tcg</span>
+        </a>
       </div>
     </div>
     <div>

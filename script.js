@@ -87,26 +87,35 @@ document.addEventListener('DOMContentLoaded', initParticles);
 function initFloatingCards() {
   const container = document.querySelector('.floating-cards');
   if (!container) return;
-  const emojis = ['🏛️','⚔️','🎴','🍛','🏯','🪆','🌺','🗺️'];
+
+  const images = [
+    './assets/images/kultura.png',
+  ];
+
   const count = 8;
+
   for (let i = 0; i < count; i++) {
-    const card = document.createElement('div');
+    const card = document.createElement('img');
+
     card.className = 'float-card-mini';
+    card.src = images[i % images.length];
+
     const rot = (Math.random() - 0.5) * 40;
+
     card.style.cssText = `
       left: ${Math.random() * 100}%;
       --rot: ${rot}deg;
       animation-duration: ${Math.random() * 15 + 12}s;
       animation-delay: ${Math.random() * 12}s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
     `;
-    card.textContent = emojis[i % emojis.length];
+
     container.appendChild(card);
   }
 }
+
 document.addEventListener('DOMContentLoaded', initFloatingCards);
 
 // ── 3D Card Tilt ──
