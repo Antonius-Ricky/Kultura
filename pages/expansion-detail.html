@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogyakarta Edition - Kultura TCG</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="loading-screen">
+  <div class="loading-logo">KULTURA</div>
+  <div class="loading-subtitle">Yogyakarta Edition</div>
+  <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon">🏛️</div>
+    <div>
+      <div class="nav-logo-text">KULTURA</div>
+      <div class="nav-logo-sub">Trading Card Game</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="expansions.html" class="nav-link active">Expansions</a></li>
+    <li><a href="cards.html" class="nav-link">Cards</a></li>
+    <li><a href="how-to-play.html" class="nav-link">How To Play</a></li>
+    <li><a href="where-to-buy.html" class="nav-link">Where To Buy</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<nav class="nav-mobile">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="expansions.html" class="nav-link active">Expansions</a>
+  <a href="cards.html" class="nav-link">Cards</a>
+  <a href="how-to-play.html" class="nav-link">How To Play</a>
+  <a href="where-to-buy.html" class="nav-link">Where To Buy</a>
+</nav>
+
+<!-- Expansion Hero -->
+<div style="position:relative;min-height:70vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#0A0602,#1A0F00,#2D1A00);padding-top:var(--navbar-height);">
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,168,76,0.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 30%,rgba(224,123,57,0.1) 0%,transparent 40%);"></div>
+  <div style="position:absolute;right:10%;top:50%;transform:translateY(-50%);font-size:20rem;opacity:0.05;pointer-events:none;line-height:1;">🏛️</div>
+
+  <div style="position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:80px 80px;">
+    <div style="max-width:700px;">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.3);border-radius:20px;padding:6px 16px;font-size:0.65rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;">
+        ✨ Ekspansi Perdana · 2025
+      </div>
+      <h1 style="font-family:'Bebas Neue',sans-serif;font-size:5.5rem;letter-spacing:5px;color:var(--beige);line-height:0.9;margin-bottom:8px;">YOGYAKARTA</h1>
+      <h2 style="font-family:'Bebas Neue',sans-serif;font-size:3rem;letter-spacing:6px;background:linear-gradient(135deg,var(--gold-dark),var(--gold),var(--gold-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:24px;">EDITION</h2>
+      <p style="font-size:0.95rem;color:var(--text-secondary);line-height:1.8;max-width:560px;margin-bottom:32px;">
+        Dalam ekspansi perdana Kultura TCG, kamu diajak menyelami keagungan Daerah Istimewa Yogyakarta. Dari kewibawaan Sultan di Keraton, kecerdasan Ki Hajar Dewantara, kemegahan Borobudur dan Prambanan, hingga kelezatan Gudeg dan Bakpia — semua hadir dalam 12+ kartu eksklusif penuh strategi.
+      </p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px;">
+        <a href="cards.html" class="btn btn-primary">🎴 Semua Kartu</a>
+        <a href="expansions.html" class="btn btn-outline">← Semua Ekspansi</a>
+      </div>
+      <div style="display:flex;gap:24px;flex-wrap:wrap;">
+        <div style="background:rgba(0,0,0,0.4);border:1px solid rgba(201,168,76,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--gold);">12+</div>
+          <div style="font-size:0.6rem;color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;">Total Kartu</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.4);border:1px solid rgba(201,168,76,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--rarity-legendary);">4</div>
+          <div style="font-size:0.6rem;color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;">Legendary</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.4);border:1px solid rgba(201,168,76,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--rarity-epic);">4</div>
+          <div style="font-size:0.6rem;color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;">Epic</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.4);border:1px solid rgba(201,168,76,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--beige);">4</div>
+          <div style="font-size:0.6rem;color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;">Rare+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lore Section -->
+<div style="background:linear-gradient(135deg,#0D0800,#1A0F00);border-top:1px solid rgba(201,168,76,0.1);border-bottom:1px solid rgba(201,168,76,0.1);">
+  <div class="section">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;" class="reveal">
+      <div>
+        <div class="section-label">Lore</div>
+        <h2 class="section-title">Kisah <span>Yogyakarta</span></h2>
+        <div class="gold-divider"><span class="gold-divider-icon">◆</span></div>
+        <p style="font-size:0.88rem;color:var(--text-secondary);line-height:1.9;margin-bottom:16px;">
+          Di jantung Pulau Jawa, berdiri sebuah kota yang tak pernah kehilangan jiwanya. Yogyakarta — atau yang akrab disapa Jogja — adalah tempat di mana sejarah dan masa kini berpelukan erat.
+        </p>
+        <p style="font-size:0.88rem;color:var(--text-secondary);line-height:1.9;margin-bottom:16px;">
+          Di sinilah Sultan memerintah dengan bijaksana, para seniman batik mengukir filosofi ke kain, dan aroma gudeg memenuhi setiap sudut kampung. Di sinilah Ki Hajar Dewantara menyalakan obor pendidikan untuk seluruh bangsa.
+        </p>
+        <p style="font-size:0.88rem;color:var(--text-secondary);line-height:1.9;">
+          Dalam Kultura TCG: Yogyakarta Edition, setiap kartu adalah potongan jiwa kota ini. Kumpulkan, mainkan, dan rasakan kehebatan Yogyakarta di setiap lemparan dadu.
+        </p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+        <div style="background:rgba(26,15,0,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:16px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">👤</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold);">Karakter</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;">Tokoh legendaris</div>
+        </div>
+        <div style="background:rgba(26,15,0,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:16px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">🍛</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold);">Makanan</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;">Kuliner khas</div>
+        </div>
+        <div style="background:rgba(26,15,0,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:16px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">🏛️</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold);">Bangunan</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;">Situs bersejarah</div>
+        </div>
+        <div style="background:rgba(26,15,0,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:16px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">👘</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold);">Pakaian</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;">Busana adat</div>
+        </div>
+        <div style="background:rgba(26,15,0,0.6);border:1px solid rgba(201,168,76,0.15);border-radius:10px;padding:16px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:8px;">🎨</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:2px;color:var(--gold);">Kesenian</div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-top:4px;">Seni budaya</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card Gallery -->
+<div class="section">
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:32px;" class="reveal">
+    <div>
+      <div class="section-label">Koleksi</div>
+      <h2 class="section-title">Galeri <span>Kartu</span></h2>
+    </div>
+  </div>
+
+  <!-- Filter -->
+  <div class="filter-bar reveal" style="margin-bottom:32px;">
+    <div class="filter-row">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active" data-cat="all">Semua</button>
+      <button class="filter-btn" data-cat="Karakter">👤 Karakter</button>
+      <button class="filter-btn" data-cat="Makanan">🍛 Makanan</button>
+      <button class="filter-btn" data-cat="Bangunan">🏛️ Bangunan</button>
+      <button class="filter-btn" data-cat="Pakaian">👘 Pakaian</button>
+      <button class="filter-btn" data-cat="Kesenian">🎨 Kesenian</button>
+    </div>
+  </div>
+
+  <!-- Cards Grid -->
+  <div id="expansion-cards-grid" class="cards-grid">
+    <div class="no-results">
+      <div class="no-results-icon">🎴</div>
+      <p>Memuat kartu...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo-text">KULTURA</div>
+      <p class="footer-tagline">Trading card game yang mengangkat keindahan budaya Indonesia.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigasi</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a><a href="expansions.html">Expansions</a>
+        <a href="cards.html">Cards</a><a href="how-to-play.html">How To Play</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Ekspansi</div>
+      <div class="footer-links">
+        <a href="expansion-detail.html">Yogyakarta Edition</a>
+        <a href="#">Bali Edition (Soon)</a>
+        <a href="#">Papua Edition (Soon)</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Sosial</div>
+      <div class="footer-social" style="margin-top:0">
+        <div class="social-btn">📘</div><div class="social-btn">📸</div>
+        <div class="social-btn">🐦</div><div class="social-btn">▶️</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Kultura TCG. Merayakan Budaya Indonesia.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
